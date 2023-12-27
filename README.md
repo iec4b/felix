@@ -89,6 +89,11 @@ provided by the Library of Congress.
 
 ## Attributions
 
+## Code 
+
+* [Python Command-Line Arguments](https://realpython.com/python-command-line-arguments/#a-few-methods-for-parsing-python-command-line-arguments)
+    - This tutorial provided the code I used for parsing system arguments and options.
+
 ### Sample_id_a_1 assets:
 
 - 'sample_id_a_1_asset_front.JPG' was originally called
