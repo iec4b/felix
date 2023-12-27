@@ -55,7 +55,7 @@ def search(unique_id):
 			'MARC300' : field_300, 
 			'MARC387' : field_387, 
 			'ProcessingNotes':processing_notes,
-			'FolderPath' : './'+folder_path,
+			'FolderPath' : '[your_folder_hierarchy]'+folder_path,
 			'MARC524' : field_524,
 			'MARC852' : field_852
 			}
@@ -74,7 +74,7 @@ def search(unique_id):
 			'MARC300' : field_300, 
 			'MARC387' : field_387, 
 			'ProcessingNotes':processing_notes,
-			'FolderPath' : '/Users/micahlanger/Library/CloudStorage/OneDrive-JewishTheologicalSeminaryofAmerica/NHPRC/'+folder_path,
+			'FolderPath' : '[your_folder_hierarchy]'+folder_path,
 			'MARC524' : field_524,
 			'MARC852' : field_852
 			}
