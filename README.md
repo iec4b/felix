@@ -102,7 +102,7 @@ provided by the Library of Congress.
 	['Compact_audio_cassette_4.jpg'](https://commons.wikimedia.org/wiki/File:Compact_audio_cassette_4.jpg), posted by Orion 8, Public domain, via Wikimedia Commons
 
 - 'sample_id_a_2_side_a_streaming.ogg' was originally called 
-	[Typing fast.ogg](https://commons.wikimedia.org/wiki/File:Typing_fast.ogg), posted by stephan, Public domain, via Wikimedia Commons
+	['Typing fast.ogg'](https://commons.wikimedia.org/wiki/File:Typing_fast.ogg), posted by stephan, Public domain, via Wikimedia Commons
 
 - 'sample_id_a_2_side_b_streaming.ogg' was originally called 
-	[Typing hunt and peck.ogg](https://commons.wikimedia.org/wiki/File:Typing_hunt_and_peck.ogg), posted by teto_yasha, Public domain, via Wikimedia Commons
+	['Typing hunt and peck.ogg'](https://commons.wikimedia.org/wiki/File:Typing_hunt_and_peck.ogg), posted by teto_yasha, Public domain, via Wikimedia Commons
