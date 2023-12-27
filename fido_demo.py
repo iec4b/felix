@@ -1,8 +1,8 @@
-# fido.py
+# fido_demo.py
 
 import csv
 
-# Define a function to return values based on the unique_id entered with felix.py.
+# Define a function to return values based on the unique_id entered with felix_demo.py.
 
 def search(unique_id):
 
@@ -11,9 +11,9 @@ def search(unique_id):
 	duration_field_value = []
 	size_field_value = []
 
-# Run the search function using the prepared csv file, data_warehouse.csv. 
+# Run the search function using the prepared csv file, data_warehouse_demo.csv. 
 
-	with open('data_warehouse.csv', mode='r', encoding='utf-8-sig') as f:
+	with open('data_warehouse_demo.csv', mode='r', encoding='utf-8-sig') as f:
 		file_reader = csv.DictReader(f, delimiter=',')
 
     # Match values by comparing unique_id to the value in FullCallNumber.
@@ -55,7 +55,7 @@ def search(unique_id):
 			'MARC300' : field_300, 
 			'MARC387' : field_387, 
 			'ProcessingNotes':processing_notes,
-			'FolderPath' : './'+folder_path,
+			'FolderPath' : './' + folder_path,
 			'MARC524' : field_524,
 			'MARC852' : field_852
 			}
@@ -74,7 +74,7 @@ def search(unique_id):
 			'MARC300' : field_300, 
 			'MARC387' : field_387, 
 			'ProcessingNotes':processing_notes,
-			'FolderPath' : '/Users/micahlanger/Library/CloudStorage/OneDrive-JewishTheologicalSeminaryofAmerica/NHPRC/'+folder_path,
+			'FolderPath' : './' + folder_path,
 			'MARC524' : field_524,
 			'MARC852' : field_852
 			}

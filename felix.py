@@ -28,7 +28,6 @@ args = [arg for arg in sys.argv[1:] if not arg.startswith("-")]
 # Currently, the unique_id is set up to accept arguments as they are entered.
 
 unique_id  = " ".join(arg for arg in args)
-print(unique_id)
 
 # Run the fido.search function on the unique_id. See the file fido.py. 
 
