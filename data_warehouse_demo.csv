@@ -1,4 +1,4 @@
 ﻿FullCallNumber,Container2,Folder,FolderPath,CallNumber1,CallNumber2,CallNumber3,XMLSource,ShortCallNumber,filename,duration,filesizeKB,durationMinutes,durationSeconds,ProcessingNotes
-sample_id A:1,sample_repository_foldername,sample_id_a_1,sample_repository_foldername/sample_id_a_1,a,1,,sample_id_a_1.xml,a:1,sample_id_a_1_streaming.mp3,0:00:38,1012.93,00,38,Sample processing note; Side B is Blank
-sample_id A:2,sample_repository_foldername,sample_id_a_2,sample_repository_foldername/sample_id_a_2,a,2,,sample_id_a_2.xml,a:2,sample_id_a_2_side_a_streaming.mp3,0:36:01,50587.96,36,1,Sample processing note;
-sample_id A:2,sample_repository_foldername,sample_id_a_2,sample_repository_foldername/sample_id_a_2,a,2,,sample_id_a_2.xml,a:2,sample_id_a_2_side_b_streaming.mp3,0:36:01,50587.96,36,1,Sample processing note;
+sample_id A:1,sample_repository_foldername,sample_id_a_1,sample_repository_foldername/sample_id_a_1,a,1,,sample_id_a_1.xml,a:1,sample_id_a_1_side_a_streaming.ogg,0:00:38,751.57,00,38,Sample processing note; Side B is Blank
+sample_id A:2,sample_repository_foldername,sample_id_a_2,sample_repository_foldername/sample_id_a_2,a,2,,sample_id_a_2.xml,a:2,sample_id_a_2_side_a_streaming.ogg,0:00:33,513.10,00,33,Sample processing note;
+sample_id A:2,sample_repository_foldername,sample_id_a_2,sample_repository_foldername/sample_id_a_2,a,2,,sample_id_a_2.xml,a:2,sample_id_a_2_side_b_streaming.ogg,0:01:00,935.96,01,0,Sample processing note;
