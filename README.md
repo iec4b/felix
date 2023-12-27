@@ -82,7 +82,7 @@ In addition to the custom-made fido.py, *felix* requires the following modules:
 ***
 ## References
 
-For more information on MARC, see the [OCLC guide]https://www.oclc.org/bibformats/en.html or the [documentation](https://www.loc.gov/marc/) 
+For more information on MARC, see the [OCLC guide](https://www.oclc.org/bibformats/en.html) or the [documentation](https://www.loc.gov/marc/) 
 provided by the Library of Congress.
 
 *felix* was designed to parse and integrate metadata according to METS, MODS, MARC, and RDA.
