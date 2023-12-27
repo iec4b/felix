@@ -1,21 +1,21 @@
 # felix
- *felix,* the cataloger's friend.
+ **felix,** the cataloger's friend.
 
 ## Introduction
 
-*felix* is a command line tool that assists catalogers who work with digitized
+**felix** is a command line tool that assists catalogers who work with digitized
 assets. It streamlines the process of reviewing digital assets, such as audio
 and image files. It also parses metadata and generates MARC fields, which can be
 copied directly into OCLC Connexion.
 
-*felix* works with a separate module, called fido.py. Just like their namesakes,
-fido.py will fetch files and metadata, and *felix* will hunt for something
+**felix** works with a separate module, called fido.py. Just like their namesakes,
+fido.py will fetch files and metadata, and **felix** will hunt for something
 specific. All commands are performed through *felix,* while fido.py works
-behind the scenes. Let *felix* climb around the data from your xml trees and
+behind the scenes. Let **felix** climb around the data from your xml trees and
 folder hierarchies, and you can focus on other things.
 
 
-## Using *felix*
+## Using **felix**
 
 ```
 Usage: felix [-opt] [Your unique identifier]
@@ -31,13 +31,13 @@ Usage: felix [-opt] [Your unique identifier]
 ```
 
 The data_warehouse.csv file will need to be pre-populated with metadata
-for *felix* to work properly. This can be done manually, or, more ideally,
-using code. *felix* is best applied in medium or high-volume contexts, where
+for **felix** to work properly. This can be done manually, or, more ideally,
+using code. **felix** is best applied in medium or high-volume contexts, where
 large quantities of files and their attendant metadata must be managed. For
 example, if the digitization process yields sidecar metadata xml files in a
 standard format, a script can be written to transfer information from those
 individual files to data_warehouse.csv file. Note that as it is currently
-configured, *felix* only draws on some of the csv columns
+configured, **felix** only draws on some of the csv columns
 (durationMinutes, durationSeconds, filesizeKB, ProcessingNotes, and
 FolderPath). Like everything in this repository, the data_warehouse.csv file
 should be treated as an inspiration, not a final draft. These tools will need
@@ -49,17 +49,17 @@ to be customized to your needs.
 Included along with the basic felix.py, fido.py, and data_warehouse.csv files
 are a series of demo files, all appended with the string, "demo". They are
 designed to be used with the folder called "sample_repository_foldername",
-which is a skeletal version of of the sort of folder trees *felix* can climb.
+which is a skeletal version of of the sort of folder trees **felix** can climb.
 Imagine it with the same basic structure, but populated with hundreds or
 thousands more folders and multimedia files, along with sidecard metadata files
 or whatever else your digitizer provides (e.g., sidecard metadata files,
 high-quality versions meant only for internal use or preservation, etc.) 
 
-Feel free to take *felix* for a spin by using the demo files.
+Feel free to take **felix** for a spin by using the demo files.
 
 ## Future steps
 
-*felix* is a work in progress. As it is applied in different contexts, it will
+**felix** is a work in progress. As it is applied in different contexts, it will
 evolve. Here is a vision for near-term improvements:
 
 1. Reduce the amount of hard-coding for MARC fields. 
@@ -72,7 +72,7 @@ evolve. Here is a vision for near-term improvements:
 
 ## Dependencies
 
-In addition to the custom-made fido.py, *felix* requires the following modules:
+In addition to the custom-made fido.py, **felix** requires the following modules:
 
 - pyperclip (https://pypi.org/project/pyperclip/)
 - subprocess (https://docs.python.org/3/library/subprocess.html)
@@ -85,7 +85,7 @@ In addition to the custom-made fido.py, *felix* requires the following modules:
 For more information on MARC, see the [OCLC guide](https://www.oclc.org/bibformats/en.html) or the [documentation](https://www.loc.gov/marc/) 
 provided by the Library of Congress.
 
-*felix* was designed to parse and integrate metadata according to METS, MODS, MARC, and RDA.
+**felix** was designed to parse and integrate metadata according to METS, MODS, MARC, and RDA.
 
 ## Attributions
 
