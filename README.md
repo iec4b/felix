@@ -36,7 +36,7 @@ using code. **felix** is best applied in medium or high-volume contexts, where
 large quantities of files and their attendant metadata must be managed. For
 example, if the digitization process yields sidecar metadata xml files in a
 standard format, a script can be written to transfer information from those
-individual files to data_warehouse.csv file. Note that as it is currently
+individual files to the data_warehouse.csv file. Note that as it is currently
 configured, **felix** only draws on some of the csv columns
 (durationMinutes, durationSeconds, filesizeKB, ProcessingNotes, and
 FolderPath). Like everything in this repository, the data_warehouse.csv file
@@ -51,9 +51,9 @@ are a series of demo files, all appended with the string, "demo". They are
 designed to be used with the folder called "sample_repository_foldername",
 which is a skeletal version of of the sort of folder trees **felix** can climb.
 Imagine it with the same basic structure, but populated with hundreds or
-thousands more folders and multimedia files, along with sidecard metadata files
-or whatever else your digitizer provides (e.g., sidecard metadata files,
-high-quality versions meant only for internal use or preservation, etc.) 
+thousands more folders and multimedia files, along with whatever else your 
+digitizer provides (e.g., sidecard metadata files, high-quality versions meant 
+only for internal use or preservation, etc.) 
 
 Feel free to take **felix** for a spin by using the demo files.
 
