@@ -9,8 +9,8 @@ and image files. It also parses metadata and generates MARC fields, which can be
 copied directly into OCLC Connexion.
 
 **felix** works with a separate module, called fido.py. Just like their canine and 
-feline namesakes,fido.py will fetch files and metadata, and **felix** will hunt for 
-something specific. All commands are performed through *felix,* while fido.py works
+feline namesakes, fido.py will fetch files and metadata, and **felix** will hunt for 
+something specific. All commands are performed through **felix,** while fido.py works
 behind the scenes. Let **felix** climb around the data from your xml trees and
 folder hierarchies, and you can focus on other things.
 
