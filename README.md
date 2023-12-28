@@ -12,7 +12,7 @@ copied directly into OCLC Connexion.
 feline namesakes, fido.py will fetch files and metadata, and **felix** will hunt for 
 something specific. All commands are performed through **felix,** while fido.py works
 behind the scenes. Let **felix** climb around the data from your xml trees and
-folder hierarchies, and you can focus on other things.
+folder hierarchies so that you can save time and focus on the bigger picture.
 
 
 ## Using **felix**
