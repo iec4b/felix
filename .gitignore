@@ -154,3 +154,6 @@ cython_debug/
 # Mac OS issues
 
 **/.DS_Store
+utilities/file_info.csv
+utilities/file_list.csv
+utilities/processing_notes.csv
